@@ -27,6 +27,7 @@ Package.onUse(function(api) {
   api.imply([
     'bogdans:flow-router@2.12.1',
     'useraccounts:core@1.14.2',
+    'modules@0.10.0'
   ], ['client', 'server']);
 
   api.use([
